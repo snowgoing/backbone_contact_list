@@ -1,0 +1,8 @@
+<div id="listTemplate">
+	<h1>My Peeps<a href="/addNew"><i class="fa fa-plus" style="color: white;"></i></a></span></h1>
+	{{#contactsData}}
+	<div class="contactName">
+		<a href="/contact/{{objectId}}"><img src="{{image}}" /><span>{{fname}} {{lname}}</span></a>
+	</div>
+	{{/contactsData}}
+</div>
